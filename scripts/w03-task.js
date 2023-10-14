@@ -2,7 +2,7 @@
 
 /* FUNCTIONS */
 /* Function Definition - Add Numbers */
-function add (number1, number2) {
+function add(number1, number2) {
     return number1 + number2;
 }
 
@@ -15,14 +15,14 @@ function addNumbers() {
 document.querySelector("#addNumbers").addEventListener("click", addNumbers);
 
 /* Function Expression - Subtract Numbers */
-const substract = function (number1, number2) {
+const subtract = function (number1, number2) {
     return number1 - number2;
 }
 
 const subtractNumbers = function () {
     let subtractNumber1 = Number(document.querySelector("#subtract1").value);
     let subtractNumber2 = Number(document.querySelector("#subtract2").value);
-    document.querySelector("#sum").value = add(subtractNumber1, subtractNumber2);
+    document.querySelector("#difference").value = subtract(subtractNumber1, subtractNumber2);
 }
 document.querySelector("#subtractNumbers").addEventListener("click", subtractNumbers);
 
@@ -60,16 +60,16 @@ let numbersArray = [1,2,3,4,5,6,7,8,9,10,11,12,13]
 document.querySelector("#array").innerHTML = numbersArray;
 
 /* Output Odds Only Array */
-const odds = numbersArray.filter(numbers => numbers % 2 == 1);
-document.querySelector("#odds").innerHTML = odds
+document.querySelector("#odds").innerHTML = numbersArray.filter(numbers => numbers % 2 == 1);
+
 /* Output Evens Only Array */
-const evens = numbersArray.filter(numbers => numbers % 2 == 0);
-document.querySelector("#evens").innerHTML = evens;
+document.querySelector("#evens").innerHTML = numbersArray.filter(numbers => numbers % 2 == 0);
+
 /* Output Sum of Org. Array */
-numbersArray.reduce((sum, number) => sum + number) = document.querySelector("#sumOfArray").innerHTML
+document.querySelector("#sumOfArray").innerHTML = numbersArray.reduce((sum, numbers) => sum + numbers);
+
 /* Output Multiplied by 2 Array */
-numbersA.map((numbers) => numbers * 2);
-document.querySelector("#multiplied").innerHTML = mult;
+let multipliedArray = document.querySelector("#multiplied").innerHTML = numbersArray.map((numbers) => numbers * 2);
+
 /* Output Sum of Multiplied by 2 Array */
-const sumMult = mult.reduce((sum, numbers) => sum + numbers, 0);
-document.querySelector("#sumOfMultiplied").innerHTML = sumMult;
+document.querySelector("#sumOfMultiplied").innerHTML = multipliedArray.reduce((sum, numbers) => sum + numbers, 0);;
