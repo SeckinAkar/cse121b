@@ -1,0 +1,111 @@
+{
+    "dishes": [
+      {
+        "name": "Spaghetti Carbonara",
+        "ingredients": [
+          "8 oz (225g) spaghetti",
+          "2 large eggs",
+          "1 cup (100g) grated Pecorino Romano cheese",
+          "4 oz (115g) pancetta or guanciale, diced",
+          "2 cloves garlic, minced",
+          "Salt and black pepper to taste",
+          "Fresh parsley, for garnish"
+        ]
+      },
+      {
+        "name": "Chicken Stir-Fry",
+        "ingredients": [
+          "2 boneless, skinless chicken breasts, sliced into strips",
+          "2 tablespoons soy sauce",
+          "1 tablespoon sesame oil",
+          "1 tablespoon vegetable oil",
+          "1 bell pepper, sliced",
+          "1 cup broccoli florets",
+          "1 cup snap peas",
+          "2 cloves garlic, minced",
+          "1-inch piece of ginger, minced",
+          "Salt and pepper to taste",
+          "Cooked rice or noodles, for serving"
+        ]
+      },
+      {
+        "name": "Caesar Salad",
+        "ingredients": [
+          "1 head of romaine lettuce, chopped",
+          "1/2 cup croutons",
+          "1/4 cup grated Parmesan cheese",
+          "2 tablespoons Caesar dressing",
+          "1 clove garlic, minced",
+          "1 lemon, juiced",
+          "1 teaspoon Dijon mustard",
+          "Salt and pepper to taste"
+        ]
+      },
+      {
+        "name": "Beef Tacos",
+        "ingredients": [
+          "1 lb (450g) ground beef",
+          "1 packet taco seasoning",
+          "8 taco shells",
+          "1 cup shredded lettuce",
+          "1 cup diced tomatoes",
+          "1/2 cup shredded cheddar cheese",
+          "1/4 cup sour cream",
+          "Salsa and guacamole for topping"
+        ]
+      },
+      {
+        "name": "Mushroom Risotto",
+        "ingredients": [
+          "1 cup Arborio rice",
+          "4 cups chicken or vegetable broth",
+          "1 cup white wine",
+          "8 oz (225g) mushrooms, sliced",
+          "1 small onion, finely chopped",
+          "2 cloves garlic, minced",
+          "2 tablespoons butter",
+          "1/2 cup grated Parmesan cheese",
+          "Salt and black pepper to taste"
+        ]
+      },
+      {
+        "name": "Salmon with Lemon-Dill Sauce",
+        "ingredients": [
+          "4 salmon fillets",
+          "2 tablespoons olive oil",
+          "2 tablespoons fresh dill, chopped",
+          "1 lemon, juiced and zested",
+          "2 cloves garlic, minced",
+          "Salt and black pepper to taste",
+          "1/4 cup sour cream",
+          "1/4 cup mayonnaise"
+        ]
+      },
+      {
+        "name": "Vegetable Curry",
+        "ingredients": [
+          "2 cups mixed vegetables (e.g., carrots, bell peppers, broccoli)",
+          "1 can (14 oz) chickpeas, drained and rinsed",
+          "1 can (14 oz) diced tomatoes",
+          "1 onion, finely chopped",
+          "2 cloves garlic, minced",
+          "1 tablespoon curry powder",
+          "1 can (14 oz) coconut milk",
+          "Salt and black pepper to taste",
+          "Cooked rice or naan bread, for serving"
+        ]
+      },
+      {
+        "name": "Caprese Salad",
+        "ingredients": [
+          "4 ripe tomatoes, sliced",
+          "8 oz (225g) fresh mozzarella, sliced",
+          "1/4 cup fresh basil leaves",
+          "2 tablespoons extra-virgin olive oil",
+          "Balsamic vinegar for drizzling",
+          "Salt and black pepper to taste"
+        ]
+      }
+    ]
+  }
+  
